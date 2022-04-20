@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IntentDemo</string>
+    <string-array name="list_name">
+        <item>kamado</item>
+        <item>tomioka</item>
+        <item>rengoku</item>
+        <item>tokitou</item>
+        <item>sanemi</item>
+        <item>obanai</item>
+        <item>himejima</item>
+        <item>shinobu</item>
+        <item>kanroji</item>
+        <item>yoriichi</item>
+        <item>michikatsu</item>
+    </string-array>
+
+</resources>

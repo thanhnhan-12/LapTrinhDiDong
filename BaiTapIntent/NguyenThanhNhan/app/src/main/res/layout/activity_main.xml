@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgGoc"
+        android:src="@drawable/kamado"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn hình phía dưới"
+        android:textSize="40sp"
+        android:textColor="#ff00"
+        android:textAlignment="center"
+        android:background="#7B68EE"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgQuestion"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/question"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>
