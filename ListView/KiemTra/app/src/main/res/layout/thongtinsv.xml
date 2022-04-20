@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtThongTin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTen"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="#003cff"
+        android:text="Thông tin"/>
+
+    <TextView
+        android:id="@+id/txtLopHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtThongTin"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="#003cff"
+        android:text="Lớp học phân"/>
+
+
+</RelativeLayout>
